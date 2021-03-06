@@ -7,6 +7,10 @@ from knox.models import AuthToken
 from .serializers import UserSerializer, RegisterSerializer
 
 # Register API
+def home(request):
+    return render(request,'home.html')
+
+
 class RegisterAPI(generics.GenericAPIView):
     serializer_class = RegisterSerializer
 
