@@ -25,7 +25,7 @@ SECRET_KEY = '@o*hfqx3_r)t#mj=4#7kgkn7zk@ijqd7zbwk1(b0%&63($hw7!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['evening-tundra-12255.git','127.0.0.1']
+ALLOWED_HOSTS = ['evening-tundra-12255.herokuapp.com','127.0.0.1']
 
 
 # Application definition
